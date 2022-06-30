@@ -1,0 +1,70 @@
+header {
+    text-align: center;
+}
+
+.create-user-container {
+    margin: 1rem;
+    text-align: center;
+}
+
+.create-user-container button {
+    margin: 1rem;
+}
+
+.user-table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.user-table-container table {
+    width: 100%;
+}
+
+.user-table-container table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.user-table-container th, td {
+    text-align: center;
+    padding: 1rem;
+}
+
+.user-table-container tr:hover {
+    background: lavender;
+}
+
+.create-button {
+    background-color: rgb(46, 204, 113);
+    color: black;
+    border: none;
+    padding: 12px;
+    text-align: center;
+    border-radius: 12px;
+    cursor:pointer;
+}
+
+.edit-button {
+    background-color: rgb(52, 152, 219);
+    color: black;
+    border: none;
+    padding: 12px;
+    text-align: center;
+    border-radius: 12px;
+    cursor:pointer;
+}
+
+.delete-button {
+    background-color: rgb(192, 57, 43);
+    color: black;
+    border: none;
+    padding: 12px;
+    text-align: center;
+    border-radius: 12px;
+    cursor:pointer;
+}
+
+.edit-form {
+    position: absolute;
+    
+}
